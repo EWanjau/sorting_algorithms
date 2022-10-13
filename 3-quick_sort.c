@@ -1,10 +1,9 @@
 #include "sort.h"
 
 /**
- * quick_sort - sorts a list using quick sort
- * @array: array to be sorted
+ * quick_sort - sorts an array with the Quicksort algorithm
+ * @array: array of ints to sort
  * @size: size of the array
- * Return: void
  */
 void quick_sort(int *array, size_t size)
 {
